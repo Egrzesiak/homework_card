@@ -1,0 +1,8 @@
+html {
+    box-sizing: border-box;
+}
+
+/* normalize WTF */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
