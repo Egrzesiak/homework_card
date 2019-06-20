@@ -3,6 +3,7 @@ html {
 }
 
 /* normalize WTF */
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -19,22 +20,49 @@ body {
     border-radius: 16px;
     max-width: 624px;
     width: 100%;
-    max-height: 1320px;
-    height: 1000px;
-    
-    display: flex;  
+    max-height: 320px;
+    height: 100%;
+    display: flex;
     align-items: flex-start;
-    justify-content: center;
     flex-direction: row;
 }
 
-.card_about {
-    height: 1000px;
-    align-self: center;
+.card__about {
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 320px;
+}
+
+.card__about--name {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.card__about--job {
+    font-style: italic;
+    color: #545454;
+    margin-top: 0;
+    margin-bottom: 28px;
 }
 
 .card__image {
     padding-top: 32px;
     padding-left: 32px;
-    height:1000px;
+}
+
+.card__about--description {
+    line-height: 22px;
+}
+
+.card__about--description--orange {
+    color: #ED6D05;
+    font-weight: normal;
+}
+
+.card__about--footer--links {
+    color: #E20613;
+    text-decoration: none;
 }
